@@ -7,10 +7,10 @@ www.processing.org
 
 A creative coding framework, built for artists and designers, sitting on top of the Java language. Cross-Platform, also available to publish to the Web and Android.
 
-TUTORIALS:
+TUTORIALS.
 http://processing.org/tutorials/
 http://hello.processing.org/
-http://wiki.processing.org/w/Video_Tutorials_by_Jose_Sanchez
+http://wiki.processing.org/w/Video_Tutorials_by_Jose_Sanchez/
 
 http://natureofcode.com/
 https://github.com/shiffman/The-Nature-of-Code
