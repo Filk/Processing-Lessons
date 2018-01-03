@@ -3,11 +3,11 @@ Capture cam;
 
 void setup() 
 {
-  size(640, 480);
-
+  size(1280, 720);
   String[] cameras = Capture.list();
   
-  if (cameras.length == 0) {
+  if (cameras.length == 0) 
+  {
     println("There are no cameras available for capture.");
     exit();
   } 
@@ -31,8 +31,9 @@ void draw()
   {
     cam.read();
   }
+  pushMatrix();
+  translate(width,0);
+  scale(-1,1);
   image(cam, 0, 0);
-  // The following does the same, and is faster when just drawing the image
-  // without any additional resizing, transformations, or tint.
-  //set(0, 0, cam);
+  popMatrix();
 }

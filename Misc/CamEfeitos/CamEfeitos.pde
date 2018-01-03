@@ -40,6 +40,9 @@ void draw()
   {
     cam.read();
   }
+  pushMatrix();
+  translate(width,0);
+  scale(-1,1);
  
 //default
   if (example == 1)
@@ -116,6 +119,7 @@ void draw()
       old = recent;
     }
   }
+  popMatrix();
   
 //looking at one pixel and reacting to if it's dark
 //(= blue value is lower than 50)  
@@ -140,6 +144,7 @@ void draw()
       }
     }
   }
+  
 }
  
 void keyPressed()
