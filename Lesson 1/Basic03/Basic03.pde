@@ -1,35 +1,35 @@
 /*
-These lessons are based, copied and sometimes modified from the following repos:
-visiophone/LSI
-jeffThompson/ProcessingTeachingSketches
+This example is copied from Daniel Shifmann learning processing
+http://learningprocessing.com/examples/chp02/example-02-01-zoog
 */
 
 void setup() 
 {  
-  size(800, 600);
+// Example 2-1: Zoog again
+  size(480, 270);
   background(255);
-  smooth();
+  ellipseMode(CENTER);
+  rectMode(CENTER); 
 }
 
 void draw() 
 { 
-  //mousePressed is another global variable which checks mouse activity, namely, if it is pressed or not
-  //mouseX and mouseY checks the position of the mouse within the screen sketch
-  //check the reference and read about this variable and see the main reference language page
+  // Body
+  stroke(0);
+  fill(150);
+  rect(240, 145, 20, 100);
   
-  //We can also use conditionals to perform tasks
-  //In this case, if mousePressed is true then paint the ellipse black, if not (i.e. else) paint it white  
-  if (mousePressed) 
-  {
-    fill(0);
-  } 
-  else 
-  {
-    fill(255);
-  }
-  //stroke defines the color of the stroke (r,g,b)
-  stroke(100,50,10);
-  //strokeWeight defines the thickness of the stroke (in pixels)
-  strokeWeight(10);
-  ellipse(mouseX, mouseY, 80, 80);
+  // Head
+  fill(255);
+  ellipse(240, 115, 60, 60); 
+  
+  // Eyes
+  fill(0); 
+  ellipse(221, 115, 16, 32); 
+  ellipse(259, 115, 16, 32);
+  
+  // Legs
+  stroke(0);
+  line(230, 195, 220, 205);
+  line(250, 195, 260, 205);
 }
