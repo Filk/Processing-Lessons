@@ -11,6 +11,35 @@ Basic shapes, structure and color.
 Lesson 2.
 Interaction: Mouse and Key events
 
+Lesson 3.
+Variables and Conditions
+
+Lesson 4.
+Loops and Arrays
+
+Lesson 5.
+Images and Pixels
+
+Lesson 6.
+Text and Functions
+
+Lesson 7.
+Classes and Objects
+
+Lesson 8.
+Video and Computer Vision
+
+Lesson 9.
+Sound
+
+Lesson 10.
+External Libraries
+Communication: OSC and Standard Firmata
+
+Lesson 10.
+
+
+
 
 
 RESOURCES:

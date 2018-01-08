@@ -17,7 +17,7 @@ void draw()
   //draw again
   background(255);
   
-   if (mousePressed) 
+  if (mousePressed) 
   {
     fill(0);
   } 
