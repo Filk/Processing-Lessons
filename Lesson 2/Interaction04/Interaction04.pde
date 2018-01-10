@@ -7,7 +7,7 @@ jeffThompson/ProcessingTeachingSketches
 void setup()
 {  
   size(800,800);
-  background(0,0);
+  background(0);
 }
 
 

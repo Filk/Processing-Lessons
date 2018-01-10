@@ -10,10 +10,10 @@ float posY=400;
 float velX=random(-2,2);
 float velY=random(-2,2);
 
-// circle size
+//circle size
 float raio=100;
 
-// START condition . boolean True or False;
+//START condition . boolean True or False;
 boolean start=false;
 
 void setup()
