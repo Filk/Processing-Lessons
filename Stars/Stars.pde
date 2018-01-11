@@ -64,6 +64,6 @@ class Star
     fill(brilho);
     stroke(brilho);
     ellipse(posX, posY, raioEllipse,raioEllipse);
-    brilho=brilho-1;
+    brilho=brilho-decremento;
   }
 }
